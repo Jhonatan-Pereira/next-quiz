@@ -8,7 +8,7 @@ interface TemporizadorProps {
 
 export default function Temporizador(props: TemporizadorProps) {
   return (
-    <div className={styles.Temporizador}>
+    <div className={styles.temporizador}>
       <CountdownCircleTimer
         duration={props.duracao} 
         size={120}
