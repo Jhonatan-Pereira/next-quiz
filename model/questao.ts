@@ -49,7 +49,7 @@ export default class QuestaoModel {
       const deveRevelar = respostaSelecionada || resposta.certa
       return deveRevelar ? resposta.revelar() : resposta
     })
-    return new QuestaoModel(this.id, this.enunciado, respostas)
+    return new QuestaoModel(this.id, this.enunciado, respostas, acertou)
   }
 
   embaralharRespostas(): QuestaoModel {
