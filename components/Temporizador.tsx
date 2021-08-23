@@ -3,7 +3,8 @@ import styles from '../styles/Temporizador.module.css';
 
 interface TemporizadorProps {
   duracao: number;
-  tempoEsgostado: () => void
+  tempoEsgostado: () => void;
+  key: any;
 }
 
 export default function Temporizador(props: TemporizadorProps) {
